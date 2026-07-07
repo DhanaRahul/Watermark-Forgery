@@ -15,6 +15,9 @@ from advanced_forgery.create_zip import create_clean_submission
 
 
 ZIP_FILE = "Dataset.zip"
+BASE_URL = "http://35.192.205.84:80"
+API_KEY  = "793942ed492393f97fec0dd0bc7ce188"
+TASK_ID  = "22-forging-task"
 
 def main():
     print("=" * 70)
